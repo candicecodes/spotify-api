@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SearchBar from './SearchBar';
+import SearchResults from './SearchResults';
 
 class App extends React.Component {
     render() {
@@ -7,13 +9,15 @@ class App extends React.Component {
             <div>
                 <h1>Gr<span className="highlight">ooo</span>vin'</h1>
                 <div className="App">
-                    {/* Add a SearchBar component */}
+                    <SearchBar />
                     <div className="App-playlist">
-                        {/*  Add a SearchResults component */}
-                        {/* Add a Playlist component */}
+                        <SearchResults />
+                        <Playlist />
                     </div>
                 </div>
             </div>
         );
     }
 }
+
+ReactDOM.render(<App />, document.getElementById('root'));
