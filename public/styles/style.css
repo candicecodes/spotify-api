@@ -143,14 +143,14 @@ h1 {
   padding: .77rem 0;
   background-color: #010c3f;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.88rem;
   color: #fff; }
   h1 .highlight {
     color: #6c41ec; }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.55rem; }
 
 .App {
@@ -227,7 +227,7 @@ h2 {
     outline: 0;
     background: transparent;
     border-bottom: 1px solid #6f6f6f;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.55rem;
     color: #fff; }
 

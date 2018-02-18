@@ -7,8 +7,8 @@ class Track extends React.Component {
     }
     render() {
         return (
-            <div class="Track">
-                <div class="Track-information">
+            <div className="Track">
+                <div className="Track-information">
                     <h3>{/* track name will go here */}</h3>
                     <p>{/* track artist will go here */} | {/* track album will go here */}</p>
                     {this.renderAction()}
@@ -21,7 +21,7 @@ class Track extends React.Component {
         return (
             <div>
                 {/* <a class="Track-action">+ or - will go here</a> */}
-                <a class="Track-action">{isRemoval ? '-' : '+'}</a>
+                <a className="Track-action">{isRemoval ? '-' : '+'}</a>
             </div>
         );
     }
