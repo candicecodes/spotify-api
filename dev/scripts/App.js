@@ -48,7 +48,7 @@ class App extends React.Component {
                 </div>
             </div>
         );
-    }
+    };
 
     // addTrack(track) {
     //     if(track.id !== /*playlistTracks state*/) {
@@ -56,6 +56,6 @@ class App extends React.Component {
     //         //set the new state of the playlist
     //     }
     // }
-}
+};
 
 ReactDOM.render(<App />, document.getElementById('root'));
