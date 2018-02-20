@@ -49,6 +49,13 @@ class App extends React.Component {
             </div>
         );
     }
+
+    // addTrack(track) {
+    //     if(track.id !== /*playlistTracks state*/) {
+    //         //add the song to the end of the playlist
+    //         //set the new state of the playlist
+    //     }
+    // }
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
