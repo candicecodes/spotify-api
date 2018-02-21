@@ -25,14 +25,14 @@ class App extends React.Component {
                     album3: "album3" 
                 }
             ],
-            playlistName: "Playlist Name",
-            playlistTracks: [
-                {
-                    name: "name",
-                    artist: "artist",
-                    album: "album"
-                }
-            ]
+            // playlistName: "Playlist Name",
+            // playlistTracks: [
+            //     {
+            //         name: "name",
+            //         artist: "artist",
+            //         album: "album"
+            //     }
+            // ]
         };
     }
     render() {
@@ -43,12 +43,12 @@ class App extends React.Component {
                     <SearchBar />
                     <div className="App-playlist">
                         <SearchResults searchResults={this.state.searchResults} />
-                        <Playlist playlistName={this.state.playlistName} playlistTracks={this.state.playlistTracks}/>
+                         {<Playlist /*playlistName={this.state.playlistName} playlistTracks={this.state.playlistTracks}*//> }
                     </div>
                 </div>
             </div>
         );
-    };
+    }
 
     // addTrack(track) {
     //     if(track.id !== /*playlistTracks state*/) {
@@ -56,6 +56,6 @@ class App extends React.Component {
     //         //set the new state of the playlist
     //     }
     // }
-};
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
