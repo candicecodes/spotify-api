@@ -5,6 +5,15 @@ class Track extends React.Component {
         super(props);
         this.renderAction = this.renderAction.bind(this);
     }
+    renderAction() { 
+        let isRemoval = true;
+        if(isRemoval) {
+            return <a className="Track-action">+</a>;
+        } else {
+            return <a className="Track-action">-</a>;
+        }
+
+    }
     render() {
         return (
             <div className="Track">
@@ -17,15 +26,7 @@ class Track extends React.Component {
             </div>
         );
     }
-    renderAction() { 
-        let isRemoval = true;
-        if(isRemoval) {
-            return <a className="Track-action">+</a>;
-        } else {
-            return <a className="Track-action">-</a>;
-        }
-
-    }
+    
 }
 
 export default Track;
